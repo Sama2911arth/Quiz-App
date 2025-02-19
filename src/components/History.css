@@ -1,4 +1,3 @@
-/* History Page Styling */
 .history-container {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -8,7 +7,7 @@
     margin-bottom: 50px;
 }
 
-/* Title */
+
 .history-title {
     font-size: 24px;
     font-weight: bold;
@@ -17,7 +16,7 @@
     margin-bottom: 15px;
 }
 
-/* No History Message */
+
 .no-history {
     font-size: 18px;
     color: #777;
@@ -27,7 +26,7 @@
     text-align: left;
 }
 
-/* History Table */
+
 .history-table {
     width: 100%;
     border-collapse: collapse;
@@ -35,7 +34,7 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Table Headers */
+
 .history-table th {
     background: linear-gradient(135deg, #4caf50, #2e7d32);
     color: white;
@@ -43,39 +42,40 @@
     text-align: left;
 }
 
-/* Table Rows - Same Colors as Question Options */
+
 .history-table td {
     padding: 12px;
     border-bottom: 1px solid #ddd;
     text-align: left;
 }
 
-/* Apply same colors as questions */
+
 .history-table tr:nth-child(odd) {
     background: #f9f9f9;
-    /* Light grey background */
+
 }
 
 .history-table tr:nth-child(even) {
     background: #e0f2f1;
-    /* Soft greenish background */
+
 }
 
 /* Hover Effect */
 .history-table tr:hover {
     background: #c8e6c9;
-    /* Lighter green */
+
     transition: background 0.3s;
+    /*shorthand which combines four transition properties*/
 }
 
-/* Button Container */
+
 .button-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-/* Back Button */
+
 .back-button {
     background: #007bff;
     color: white;

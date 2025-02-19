@@ -8,7 +8,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Instructions box */
+
 .quiz-instructions {
     background: #fff;
     padding: 20px;
@@ -37,7 +37,7 @@
     font-size: 16px;
 }
 
-/* Buttons */
+
 .start-button,
 .history-button {
     margin-top: 15px;
@@ -67,7 +67,7 @@
     background: #0056b3;
 }
 
-/* Error message */
+
 .error {
     color: red;
     font-size: 18px;
