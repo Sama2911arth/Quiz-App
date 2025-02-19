@@ -1,0 +1,94 @@
+/* History Page Styling */
+.history-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    width: 95%;
+    align-self: self-start;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+/* Title */
+.history-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* No History Message */
+.no-history {
+    font-size: 18px;
+    color: #777;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* History Table */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Headers */
+.history-table th {
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Rows - Same Colors as Question Options */
+.history-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Apply same colors as questions */
+.history-table tr:nth-child(odd) {
+    background: #f9f9f9;
+    /* Light grey background */
+}
+
+.history-table tr:nth-child(even) {
+    background: #e0f2f1;
+    /* Soft greenish background */
+}
+
+/* Hover Effect */
+.history-table tr:hover {
+    background: #c8e6c9;
+    /* Lighter green */
+    transition: background 0.3s;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Back Button */
+.back-button {
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.back-button:hover {
+    background: #0056b3;
+}
